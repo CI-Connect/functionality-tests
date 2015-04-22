@@ -1,6 +1,6 @@
 Create a test file
 -------------------
-  $ echo "Hello World" > ~/stash/public/hello
+  $ echo "Hello World" > /home/$(whoami)/stash/public/hello
 
 Curl the file to /dev/null
 ---------------------------
@@ -8,4 +8,4 @@ Curl the file to /dev/null
 
 Remove test file
 ----------------
-  $ rm ~/stash/public/hello
+  $ rm /home/$(whoami)/stash/public/hello
