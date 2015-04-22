@@ -44,9 +44,9 @@ Clean up
 --------
   $ rm ~/stash/posix/test
   $ ls ~/stash/posix/test
-  ls: cannot access /home/$(whoami)/stash/posix/test: No such file or directory
+  ls: cannot access /home/* (glob)
   [2]
   $ rmdir ~/stash/posix
   $ ls ~/stash/posix
-  ls: cannot access /home/$(whoami)/stash/posix: No such file or directory
+  ls: cannot access /home/* (glob)
   [2]
