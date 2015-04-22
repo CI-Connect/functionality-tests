@@ -7,7 +7,7 @@ Create a simple job file
 
 Copy some extra utilities to the unit test directory
 ----------------------------------------------------
-  $ cp ${TESTDIR}/run_and_wait.sh .
+  $ cp "${TESTDIR}/run_and_wait.sh" .
 
 Run the unit test
 -----------------
