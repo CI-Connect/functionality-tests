@@ -8,10 +8,10 @@ Change directory to the tutorial directory
   $ cd tutorial-namd
 
 Copy run_and_wait script for Condor into tutorial sandbox
-  $ cp $TESTDIR/run_and_wait.sh .
+  $ cp "$TESTDIR/run_and_wait.sh" .
 
 Copy namd configuration edit script into sandbox and run it
-  $ cp $TESTDIR/namd_conf_edit.sh .
+  $ cp "$TESTDIR/namd_conf_edit.sh" .
   $ ./namd_conf_edit.sh ubq_gbis_eq.conf
 
 Run the job
