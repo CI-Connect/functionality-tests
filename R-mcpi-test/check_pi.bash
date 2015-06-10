@@ -2,9 +2,7 @@
 
 a=$(tail -n 1 $* | awk '{print $2}')
 a_int=${a%.*}
-b=0
-c=5
-if  [ $a_int -gt $b ] && [ $a_int -lt $c ] ;
+if  [ $a_int -gt "0" ] && [ $a_int -lt "5" ] ;
    then 
       echo "pi is in range"
 fi
