@@ -20,5 +20,5 @@ Copy check_pi.bash script into tutorial sandbox
 
 Check for successful R run
   $ chmod +x ./check_pi.bash
-  $ ./check_pi.bash mcpi.out.*
+  $ ./check_pi.bash mcpi.out.*.0
   pi is in range
