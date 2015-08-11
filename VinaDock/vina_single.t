@@ -16,5 +16,5 @@ Run the job
   All jobs done.
 
 Check for successful vina run
-  $ tail -n 1 receptor-ligand.log⋅
+  $ tail -n 1 receptor-ligand.log
   Writing output ... done.
