@@ -1,11 +1,11 @@
-Verify that the tutorial can be copied⋅
+Verify that the tutorial can be copied
   $ tutorial AutoDockVina
   Installing AutoDockVina (master)...
   Tutorial files installed in ./tutorial-AutoDockVina.
   Running setup in ./tutorial-AutoDockVina...
 
 Change directory to the tutorial directory
-  $ cd tutorial-AutoDockVina⋅
+  $ cd tutorial-AutoDockVina
 
 Copy run_and_wait script for Condor into tutorial sandbox
   $ cp "$TESTDIR/run_and_wait.sh" .
