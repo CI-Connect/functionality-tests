@@ -2,7 +2,7 @@ Test stash via xrdcp
 
 make a new test file
 --------------------
-  $ echo "Hello XRootD" > /stash2/user/$(whoami)/xrootd-test-file
+  $ echo "Hello XRootD" > /stash/user/$(whoami)/xrootd-test-file
 
 xrdcp the test file from data.ci-connect.net
 ---------------------------------------------
