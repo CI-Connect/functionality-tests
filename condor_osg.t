@@ -7,7 +7,7 @@ correctly.
 
 Create a simple job file
 ------------------------
-  $ echo -e " universe = vanilla \n  +ProjectName = 'ContinuousIntegration'\n output=job.output \n error=job.error \n log=job.log \n executable = /bin/echo \n arguments = hello world \n requirements = (OSG_GLIDEIN_VERSION >= 1) \n queue" > submit_file
+  $ echo -e " universe = vanilla \n  +ProjectName = \"ContinuousIntegration\"\n output=job.output \n error=job.error \n log=job.log \n executable = /bin/echo \n arguments = hello world \n requirements = (OSG_GLIDEIN_VERSION >= 1) \n queue" > submit_file
 
 Copy some extra utilities to the unit test directory
 ----------------------------------------------------
